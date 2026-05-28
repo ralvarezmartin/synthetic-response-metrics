@@ -4,7 +4,7 @@ title: "synthetic-response-metrics: lightweight response-convergence metrics for
 version: "0.2.0"
 date-released: 2026-05-28
 license: MIT
-repository-code: "[GitHub repository URL]"
+repository-code: "https://github.com/ralvarezmartin/synthetic-response-metrics"
 doi: "[Archived release DOI]"
 authors:
   - family-names: "Alvarez"

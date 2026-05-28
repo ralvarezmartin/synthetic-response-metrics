@@ -1,0 +1,32 @@
+{
+  "dataset_name": "MadSynthesis-generated applied example for ORE method article",
+  "run_id": "ore-platform-20260528T095605Z-cd16d40a",
+  "population_id": "ore_platform_fictional_city_services_n10",
+  "generated_at_utc": "2026-05-28T09:57:13.545041+00:00",
+  "source_platform": "MadSynthesis local service layer",
+  "framework_version": "synthetic-response-metrics 0.2.0",
+  "model": "gpt-4o-mini",
+  "temperature": 1.0,
+  "max_completion_tokens": 1024,
+  "agents": 10,
+  "questions": 3,
+  "records": 30,
+  "scenario": "fictional city-service booking app",
+  "publication_safety": {
+    "human_participant_data": false,
+    "client_data": false,
+    "personal_data": false,
+    "commercially_sensitive_prompts": false,
+    "api_keys_or_system_prompts": false,
+    "copyrighted_third_party_text": false,
+    "madison_approval_required_before_deposit": true
+  },
+  "outputs": {
+    "framework_input_csv": "madsynthesis_export.csv",
+    "framework_input_jsonl": "madsynthesis_export.jsonl",
+    "metrics_json": "madsynthesis_metrics.json",
+    "summary_csv": "madsynthesis_summary.csv",
+    "by_question_csv": "madsynthesis_by_question.csv",
+    "top_pairs_csv": "madsynthesis_top_pairs.csv"
+  }
+}

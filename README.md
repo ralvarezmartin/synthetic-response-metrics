@@ -136,6 +136,11 @@ cover:
 - population-size sensitivity examples for N=3, N=5, and N=10;
 - a high-convergence diagnostic case that demonstrates `top_similar_pairs`.
 
+The optional `examples/ore_validation/platform_generated` folder contains a
+new, article-specific applied example generated from a fictional scenario
+through the local MadSynthesis service layer. It is included as a portability
+check for platform exports, not as primary validation or threshold calibration.
+
 Regenerate all example outputs with:
 
 ```powershell
@@ -147,6 +152,7 @@ srm compute examples/ore_validation/population_size/n3.csv --include-pairs --lan
 srm compute examples/ore_validation/population_size/n5.csv --include-pairs --language en --output examples/ore_validation/population_size/n5_results.json
 srm compute examples/ore_validation/population_size/n10.csv --include-pairs --language en --output examples/ore_validation/population_size/n10_results.json
 srm compute examples/ore_validation/diagnostic_high_convergence/responses.csv --include-pairs --language en --output examples/ore_validation/diagnostic_high_convergence/results.json
+srm compute examples/ore_validation/platform_generated/madsynthesis_export.csv --include-pairs --language en --output examples/ore_validation/platform_generated/madsynthesis_metrics.json
 ```
 
 Derived manuscript tables and figures are stored outside the package source in

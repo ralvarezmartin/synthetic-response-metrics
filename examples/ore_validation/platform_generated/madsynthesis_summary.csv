@@ -1,0 +1,2 @@
+run_id,population_id,n_questions,questions_evaluated,records_total,valid_records_total,overall_avg_similarity,overall_max_similarity,overall_avg_lexical_unique_ratio,overall_avg_distinct_2,overall_avg_token_entropy,overall_max_containment_similarity,duplicate_records_count,missing_text_count,convergence_alert,runtime_ms
+ore-platform-20260528T095605Z-cd16d40a,ore_platform_fictional_city_services_n10,3,3,30,30,0.15,0.31,0.55,0.84,7.52,0.489,0,0,False,4

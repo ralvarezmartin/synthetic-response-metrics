@@ -1,0 +1,4 @@
+question_id,status,answers_count,pairs_count,avg_jaccard_similarity,max_jaccard_similarity,lexical_unique_ratio,distinct_1,distinct_2,token_entropy,max_containment_similarity,convergence_alert
+Q1,ok,10,45,0.17,0.31,0.529,0.529,0.814,7.542,0.489,False
+Q2,ok,10,45,0.181,0.286,0.522,0.522,0.798,7.363,0.45,False
+Q3,ok,10,45,0.099,0.185,0.598,0.598,0.909,7.655,0.361,False

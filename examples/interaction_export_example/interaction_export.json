@@ -1,0 +1,33 @@
+{
+  "run_id": "demo-run",
+  "interactions": [
+    {
+      "id": "q-a1",
+      "role": "interviewer",
+      "agentId": "a1",
+      "content": "What do you think of the proposal?",
+      "timestamp": 1
+    },
+    {
+      "id": "a-a1",
+      "role": "agent",
+      "agentId": "a1",
+      "content": "It is useful and affordable for professionals.",
+      "timestamp": 2
+    },
+    {
+      "id": "q-a2",
+      "role": "interviewer",
+      "agentId": "a2",
+      "content": "What do you think of the proposal?",
+      "timestamp": 3
+    },
+    {
+      "id": "a-a2",
+      "role": "agent",
+      "agentId": "a2",
+      "content": "It is useful and affordable for professionals.",
+      "timestamp": 4
+    }
+  ]
+}

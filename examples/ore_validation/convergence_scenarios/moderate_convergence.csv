@@ -1,0 +1,19 @@
+question_id,agent_id,text
+q1,a1,"The first-use flow should include clear onboarding, setup guidance, and privacy controls."
+q1,a2,A clear onboarding checklist with setup guidance would make the first session easier.
+q1,a3,"Users need onboarding guidance, examples, and visible privacy controls before setup."
+q1,a4,"A setup checklist, short examples, and privacy settings would improve the first experience."
+q1,a5,The product should make onboarding clear and show privacy controls during setup.
+q1,a6,Guided setup with examples and visible privacy choices would reduce first-use uncertainty.
+q2,a1,"Trust would increase with transparent evidence, clear privacy notes, and audit logs."
+q2,a2,"Users need evidence summaries, privacy information, and an audit trail for recommendations."
+q2,a3,"A product feels trustworthy when evidence, privacy controls, and logs are easy to inspect."
+q2,a4,Clear evidence links and privacy documentation would support trust in the recommendation.
+q2,a5,"Trust depends on privacy controls, traceable recommendations, and concise evidence notes."
+q2,a6,"The system should show evidence, privacy settings, and audit information in one place."
+q3,a1,"The team should address integration effort, pricing clarity, and security documentation."
+q3,a2,"Adoption depends on security notes, integration planning, and transparent pricing."
+q3,a3,"Before adoption, users need clearer security documentation and integration guidance."
+q3,a4,"The main concern is whether pricing, integrations, and security requirements are predictable."
+q3,a5,"Teams will ask for pricing clarity, security review material, and integration examples."
+q3,a6,"The product should document security, integration effort, and pricing before rollout."

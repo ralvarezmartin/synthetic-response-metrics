@@ -1,0 +1,108 @@
+{
+  "summary": {
+    "schema_version": "0.2",
+    "config": {
+      "threshold_max_similarity": 0.7,
+      "min_answers": 2,
+      "language": "auto",
+      "min_token_length": 3,
+      "duplicate_policy": "latest",
+      "include_pairs": true,
+      "top_pairs_limit": 5
+    },
+    "threshold_max_similarity": 0.7,
+    "min_answers_per_question": 2,
+    "questions_total": 2,
+    "questions_evaluated": 2,
+    "questions_alerted": 1,
+    "records_total": 4,
+    "missing_question_id_count": 0,
+    "missing_agent_id_count": 0,
+    "missing_text_count": 0,
+    "duplicate_records_count": 0,
+    "overall_avg_similarity": 0.785,
+    "overall_max_similarity": 1.0,
+    "overall_min_similarity": 0.571,
+    "overall_avg_median_similarity": 0.785,
+    "overall_avg_lexical_unique_ratio": 0.568,
+    "overall_avg_distinct_2": 0.639,
+    "overall_avg_token_entropy": 2.366,
+    "overall_max_containment_similarity": 1.0,
+    "convergence_alert": true,
+    "runtime_ms": 0
+  },
+  "by_question": {
+    "q1": {
+      "answers_count": 2,
+      "raw_answers_count": 2,
+      "excluded_empty_after_normalization": 0,
+      "pairs_count": 1,
+      "status": "ok",
+      "alert": true,
+      "unique_agents_count": 2,
+      "duplicate_records_count": 0,
+      "missing_text_count": 0,
+      "avg_jaccard_similarity": 1.0,
+      "max_jaccard_similarity": 1.0,
+      "min_jaccard_similarity": 1.0,
+      "median_jaccard_similarity": 1.0,
+      "p90_jaccard_similarity": 1.0,
+      "std_jaccard_similarity": 0.0,
+      "max_containment_similarity": 1.0,
+      "lexical_unique_ratio": 0.5,
+      "distinct_1": 0.5,
+      "distinct_2": 0.5,
+      "token_entropy": 2.0,
+      "mean_response_tokens": 4.0,
+      "response_length_cv": 0.0,
+      "exact_duplicate_count": 1,
+      "exact_duplicate_ratio": 1.0,
+      "top_similar_pairs": [
+        {
+          "agent_id_a": "a1",
+          "agent_id_b": "a2",
+          "record_index_a": 0,
+          "record_index_b": 1,
+          "jaccard_similarity": 1.0,
+          "containment_similarity": 1.0
+        }
+      ]
+    },
+    "q2": {
+      "answers_count": 2,
+      "raw_answers_count": 2,
+      "excluded_empty_after_normalization": 0,
+      "pairs_count": 1,
+      "status": "ok",
+      "alert": false,
+      "unique_agents_count": 2,
+      "duplicate_records_count": 0,
+      "missing_text_count": 0,
+      "avg_jaccard_similarity": 0.571,
+      "max_jaccard_similarity": 0.571,
+      "min_jaccard_similarity": 0.571,
+      "median_jaccard_similarity": 0.571,
+      "p90_jaccard_similarity": 0.571,
+      "std_jaccard_similarity": 0.0,
+      "max_containment_similarity": 0.8,
+      "lexical_unique_ratio": 0.636,
+      "distinct_1": 0.636,
+      "distinct_2": 0.778,
+      "token_entropy": 2.732,
+      "mean_response_tokens": 5.5,
+      "response_length_cv": 0.091,
+      "exact_duplicate_count": 0,
+      "exact_duplicate_ratio": 0.0,
+      "top_similar_pairs": [
+        {
+          "agent_id_a": "a1",
+          "agent_id_b": "a2",
+          "record_index_a": 2,
+          "record_index_b": 3,
+          "jaccard_similarity": 0.571,
+          "containment_similarity": 0.8
+        }
+      ]
+    }
+  }
+}

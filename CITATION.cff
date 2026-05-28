@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use synthetic-response-metrics, please cite the archived release and the associated Open Research Europe Method Article."
+title: "synthetic-response-metrics: lightweight response-convergence metrics for LLM-based synthetic populations"
+version: "0.2.0"
+date-released: 2026-05-28
+license: MIT
+repository-code: "[GitHub repository URL]"
+doi: "[Archived release DOI]"
+authors:
+  - family-names: "Alvarez"
+    given-names: "Rodrigo"
+  - family-names: "Soroberto"
+    given-names: "Mina"
+abstract: "A lightweight, platform-independent Python package and CLI for reproducible lexical monitoring of response convergence in LLM-based synthetic populations."
+keywords:
+  - synthetic populations
+  - LLM agents
+  - response convergence
+  - lexical similarity
+  - reproducible methods

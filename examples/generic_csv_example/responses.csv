@@ -1,0 +1,5 @@
+run_id,question_id,agent_id,text,model,temperature
+demo,q1,a1,The proposal is useful and affordable for professionals,gpt-4.1-mini,0.2
+demo,q1,a2,The proposal is useful and affordable for professionals,gpt-4.1-mini,0.2
+demo,q2,a1,I would pay between 10 and 15 euros per month,gpt-4.1-mini,0.2
+demo,q2,a2,I would only pay around 8 euros per month,gpt-4.1-mini,0.2

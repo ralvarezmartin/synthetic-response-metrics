@@ -1,0 +1,14 @@
+question_id,agent_id,text
+cq1,a1,"The onboarding dashboard should highlight cost, setup time, and privacy controls."
+cq1,a2,"The onboarding dashboard should highlight cost, setup time, and privacy controls."
+cq1,a3,I would focus the first screen on clinical safety notes and a short tutorial.
+cq1,a4,
+cq1,a4,A compact tutorial with privacy settings and setup guidance would help.
+cq2,a1,I would trust the result more if the system explained the evidence behind each recommendation.
+cq2,a2,"The most useful feature would be a dashboard that compares cost, reliability, and response time."
+cq2,a3,Clear privacy controls and a short exportable summary would make the workflow easier to review.
+cq2,a4,I would prefer examples from realistic deployment contexts before deciding whether to adopt it.
+cq3,a1,Pricing needs transparent monthly tiers and a trial that covers a complete team workflow.
+cq3,a2,"The buying decision depends on security documentation, integration effort, and support availability."
+cq3,a3,A side-by-side comparison with current tools would help justify the transition.
+cq3,a4,The product should show measurable time savings before I would recommend a paid plan.

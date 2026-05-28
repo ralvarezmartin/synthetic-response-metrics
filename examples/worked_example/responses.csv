@@ -1,0 +1,10 @@
+question_id,agent_id,text
+q1,a1,The plan is useful and affordable for small clinics.
+q1,a2,The plan is useful and affordable for small clinics.
+q1,a3,I worry about integration effort and staff training.
+q1,a4,
+q1,a4,The plan seems affordable but training support matters.
+q2,a1,Patients would value faster appointments and clear reminders.
+q2,a2,Patients value clear reminders and faster appointments.
+q2,a3,Privacy concerns should be explained before deployment.
+q2,a4,

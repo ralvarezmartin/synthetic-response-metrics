@@ -1,0 +1,19 @@
+question_id,agent_id,text
+q1,a1,Add a short interactive tour that lets users skip steps and return later.
+q1,a2,Show a sample project with realistic data before asking for configuration choices.
+q1,a3,Offer keyboard shortcuts and a searchable command palette during the first session.
+q1,a4,Provide a printable checklist for teams that need approval before setup.
+q1,a5,Start with a lightweight sandbox so people can experiment without risk.
+q1,a6,Use contextual tooltips only where the interface contains unfamiliar terminology.
+q2,a1,Publish benchmark notes that explain where the system performs well and where it fails.
+q2,a2,Give administrators a clear audit trail for every generated recommendation.
+q2,a3,"Show how customer data is isolated, retained, deleted, and exported."
+q2,a4,Include deployment stories from different organization sizes and technical environments.
+q2,a5,"Provide service-level details for uptime, support response, and incident handling."
+q2,a6,Make model configuration changes visible in release notes that users can review.
+q3,a1,The team should reduce setup friction for non-technical reviewers.
+q3,a2,The team should prove that the product works with messy legacy inputs.
+q3,a3,The team should clarify ownership of exported reports and project metadata.
+q3,a4,The team should document accessibility support for keyboard and screen-reader users.
+q3,a5,The team should explain how pricing changes affect long-running projects.
+q3,a6,The team should define a migration path for organizations with strict procurement rules.

@@ -1,0 +1,6 @@
+question_id,agent_id,text
+dq1,a1,"I prefer a concise onboarding checklist with privacy controls, pricing notes, and a live support contact."
+dq1,a2,"I would prefer a concise onboarding checklist with privacy controls, pricing information, and a live support contact."
+dq1,a3,The strongest adoption signal would be an independent security review and clear deployment examples.
+dq1,a4,A transparent roadmap and responsive technical support would matter more than interface polish.
+dq1,a5,I would need evidence that exported reports remain stable across repeated runs.

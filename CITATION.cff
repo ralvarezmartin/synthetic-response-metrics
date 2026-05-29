@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use synthetic-response-metrics, please cite the archived release and the associated Open Research Europe Method Article."
 title: "synthetic-response-metrics: lightweight response-convergence metrics for LLM-based synthetic populations"
-version: "0.2.2"
+version: "0.2.3"
 date-released: 2026-05-29
 license: MIT
 repository-code: "https://github.com/ralvarezmartin/synthetic-response-metrics"
-doi: 10.5281/zenodo.20440940
+doi: 10.5281/zenodo.20440939
 authors:
   - family-names: "Alvarez"
     given-names: "Rodrigo"

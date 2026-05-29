@@ -1,6 +1,6 @@
 # Synthetic Response Metrics
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20440940.svg)](https://doi.org/10.5281/zenodo.20440940)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20440939-blue)](https://doi.org/10.5281/zenodo.20440939)
 
 Lightweight response-convergence metrics for LLM-based synthetic populations.
 
@@ -166,8 +166,8 @@ folders.
 
 Please cite the archived software release and the associated Method Article
 when using this package. A `CITATION.cff` file is included for software
-citation metadata. The archived release DOI for version `0.2.2` is
-https://doi.org/10.5281/zenodo.20440940.
+citation metadata. The Zenodo concept DOI for archived releases is
+https://doi.org/10.5281/zenodo.20440939.
 
 ## License
 
@@ -175,7 +175,7 @@ This package is distributed under the MIT License. See `LICENSE`.
 
 ## Status
 
-Version `0.2.2` is still lexical and lightweight, but it now includes data-quality
+Version `0.2.3` is still lexical and lightweight, but it now includes data-quality
 diagnostics, pairwise distribution metrics, duplicate handling, language-aware
 stopwords for English/Spanish, and optional top similar pair reporting. Planned
 extensions include optional semantic similarity, syntactic-template metrics, and

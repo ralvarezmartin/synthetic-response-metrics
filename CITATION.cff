@@ -5,7 +5,7 @@ version: "0.2.3"
 date-released: 2026-05-29
 license: MIT
 repository-code: "https://github.com/ralvarezmartin/synthetic-response-metrics"
-doi: 10.5281/zenodo.20440939
+doi: 10.5281/zenodo.20441314
 authors:
   - family-names: "Alvarez"
     given-names: "Rodrigo"

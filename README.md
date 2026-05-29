@@ -1,6 +1,6 @@
 # Synthetic Response Metrics
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20440939-blue)](https://doi.org/10.5281/zenodo.20440939)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20441314-blue)](https://doi.org/10.5281/zenodo.20441314)
 
 Lightweight response-convergence metrics for LLM-based synthetic populations.
 
@@ -166,8 +166,8 @@ folders.
 
 Please cite the archived software release and the associated Method Article
 when using this package. A `CITATION.cff` file is included for software
-citation metadata. The Zenodo concept DOI for archived releases is
-https://doi.org/10.5281/zenodo.20440939.
+citation metadata. The archived Zenodo DOI for version `0.2.3` is
+https://doi.org/10.5281/zenodo.20441314.
 
 ## License
 

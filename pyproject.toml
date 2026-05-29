@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "synthetic-response-metrics"
-version = "0.2.3"
+version = "0.2.4"
 description = "Lightweight response-convergence metrics for LLM-based synthetic populations."
 readme = "README.md"
 requires-python = ">=3.10"

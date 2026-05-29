@@ -29,7 +29,7 @@
     "overall_avg_token_entropy": 7.52,
     "overall_max_containment_similarity": 0.489,
     "convergence_alert": false,
-    "runtime_ms": 4
+    "runtime_ms": 3
   },
   "by_question": {
     "Q1": {
@@ -64,7 +64,8 @@
           "record_index_a": 1,
           "record_index_b": 9,
           "jaccard_similarity": 0.31,
-          "containment_similarity": 0.489
+          "containment_similarity": 0.489,
+          "shared_token_count": 22
         },
         {
           "agent_id_a": "agent_02",
@@ -72,7 +73,8 @@
           "record_index_a": 1,
           "record_index_b": 5,
           "jaccard_similarity": 0.254,
-          "containment_similarity": 0.436
+          "containment_similarity": 0.436,
+          "shared_token_count": 17
         },
         {
           "agent_id_a": "agent_05",
@@ -80,7 +82,8 @@
           "record_index_a": 4,
           "record_index_b": 9,
           "jaccard_similarity": 0.253,
-          "containment_similarity": 0.413
+          "containment_similarity": 0.413,
+          "shared_token_count": 19
         },
         {
           "agent_id_a": "agent_02",
@@ -88,7 +91,8 @@
           "record_index_a": 1,
           "record_index_b": 8,
           "jaccard_similarity": 0.22,
-          "containment_similarity": 0.4
+          "containment_similarity": 0.4,
+          "shared_token_count": 18
         },
         {
           "agent_id_a": "agent_09",
@@ -96,7 +100,8 @@
           "record_index_a": 8,
           "record_index_b": 9,
           "jaccard_similarity": 0.212,
-          "containment_similarity": 0.375
+          "containment_similarity": 0.375,
+          "shared_token_count": 18
         }
       ]
     },
@@ -132,7 +137,8 @@
           "record_index_a": 12,
           "record_index_b": 13,
           "jaccard_similarity": 0.286,
-          "containment_similarity": 0.45
+          "containment_similarity": 0.45,
+          "shared_token_count": 18
         },
         {
           "agent_id_a": "agent_03",
@@ -140,7 +146,8 @@
           "record_index_a": 12,
           "record_index_b": 16,
           "jaccard_similarity": 0.254,
-          "containment_similarity": 0.41
+          "containment_similarity": 0.41,
+          "shared_token_count": 16
         },
         {
           "agent_id_a": "agent_04",
@@ -148,7 +155,8 @@
           "record_index_a": 13,
           "record_index_b": 16,
           "jaccard_similarity": 0.25,
-          "containment_similarity": 0.41
+          "containment_similarity": 0.41,
+          "shared_token_count": 16
         },
         {
           "agent_id_a": "agent_04",
@@ -156,7 +164,8 @@
           "record_index_a": 13,
           "record_index_b": 18,
           "jaccard_similarity": 0.243,
-          "containment_similarity": 0.415
+          "containment_similarity": 0.415,
+          "shared_token_count": 17
         },
         {
           "agent_id_a": "agent_06",
@@ -164,7 +173,8 @@
           "record_index_a": 15,
           "record_index_b": 18,
           "jaccard_similarity": 0.243,
-          "containment_similarity": 0.391
+          "containment_similarity": 0.391,
+          "shared_token_count": 18
         }
       ]
     },
@@ -200,7 +210,8 @@
           "record_index_a": 22,
           "record_index_b": 26,
           "jaccard_similarity": 0.185,
-          "containment_similarity": 0.316
+          "containment_similarity": 0.316,
+          "shared_token_count": 12
         },
         {
           "agent_id_a": "agent_02",
@@ -208,7 +219,8 @@
           "record_index_a": 21,
           "record_index_b": 25,
           "jaccard_similarity": 0.182,
-          "containment_similarity": 0.333
+          "containment_similarity": 0.333,
+          "shared_token_count": 12
         },
         {
           "agent_id_a": "agent_01",
@@ -216,7 +228,8 @@
           "record_index_a": 20,
           "record_index_b": 28,
           "jaccard_similarity": 0.178,
-          "containment_similarity": 0.361
+          "containment_similarity": 0.361,
+          "shared_token_count": 13
         },
         {
           "agent_id_a": "agent_01",
@@ -224,7 +237,8 @@
           "record_index_a": 20,
           "record_index_b": 21,
           "jaccard_similarity": 0.143,
-          "containment_similarity": 0.25
+          "containment_similarity": 0.25,
+          "shared_token_count": 9
         },
         {
           "agent_id_a": "agent_02",
@@ -232,7 +246,8 @@
           "record_index_a": 21,
           "record_index_b": 22,
           "jaccard_similarity": 0.138,
-          "containment_similarity": 0.25
+          "containment_similarity": 0.25,
+          "shared_token_count": 9
         }
       ]
     }

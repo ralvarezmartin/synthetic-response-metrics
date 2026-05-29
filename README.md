@@ -155,25 +155,16 @@ srm compute examples/ore_validation/diagnostic_high_convergence/responses.csv --
 srm compute examples/ore_validation/platform_generated/madsynthesis_export.csv --include-pairs --language en --output examples/ore_validation/platform_generated/madsynthesis_metrics.json
 ```
 
-Derived manuscript tables and figures are stored outside the package source in
-`../Articulo/analysis_v7_initial_validation`. The script
-`../Articulo/scripts/regenerate_validation_summary.py` rebuilds
-`validation_summary.csv` and `validation_outputs.json` from the JSON outputs.
-
-## Reproducibility package
-
-The local release candidate for the Method Article is assembled under
-`../Articulo/release_candidate_v0.2.0`. It contains the source package, tests,
-article-specific validation inputs, expected outputs, generated tables,
-figures, and reproduction notes. The final public release should be archived
-with a DOI before submission.
+The included CSV, JSONL, and JSON files are sufficient to recompute the metric
+outputs used by the article examples from the repository root. Manuscript tables
+can be derived from these outputs without relying on project-specific local
+folders.
 
 ## Citation
 
 Please cite the archived software release and the associated Method Article
-when using this package. A draft `CITATION.cff` file is included and should be
-updated with the final repository URL, release tag, and archived release DOI
-before publication.
+when using this package. A `CITATION.cff` file is included for software
+citation metadata.
 
 ## License
 

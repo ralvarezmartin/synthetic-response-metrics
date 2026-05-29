@@ -29,7 +29,7 @@
     "overall_avg_token_entropy": 4.489,
     "overall_max_containment_similarity": 0.875,
     "convergence_alert": true,
-    "runtime_ms": 0
+    "runtime_ms": 1
   },
   "by_question": {
     "ps1": {
@@ -64,7 +64,8 @@
           "record_index_a": 0,
           "record_index_b": 6,
           "jaccard_similarity": 0.7,
-          "containment_similarity": 0.875
+          "containment_similarity": 0.875,
+          "shared_token_count": 7
         },
         {
           "agent_id_a": "a7",
@@ -72,7 +73,8 @@
           "record_index_a": 6,
           "record_index_b": 7,
           "jaccard_similarity": 0.636,
-          "containment_similarity": 0.778
+          "containment_similarity": 0.778,
+          "shared_token_count": 7
         },
         {
           "agent_id_a": "a1",
@@ -80,7 +82,8 @@
           "record_index_a": 0,
           "record_index_b": 7,
           "jaccard_similarity": 0.545,
-          "containment_similarity": 0.75
+          "containment_similarity": 0.75,
+          "shared_token_count": 6
         },
         {
           "agent_id_a": "a1",
@@ -88,7 +91,8 @@
           "record_index_a": 0,
           "record_index_b": 8,
           "jaccard_similarity": 0.5,
-          "containment_similarity": 0.75
+          "containment_similarity": 0.75,
+          "shared_token_count": 6
         },
         {
           "agent_id_a": "a2",
@@ -96,7 +100,8 @@
           "record_index_a": 1,
           "record_index_b": 4,
           "jaccard_similarity": 0.5,
-          "containment_similarity": 0.667
+          "containment_similarity": 0.667,
+          "shared_token_count": 6
         }
       ]
     },
@@ -132,7 +137,8 @@
           "record_index_a": 14,
           "record_index_b": 15,
           "jaccard_similarity": 0.5,
-          "containment_similarity": 0.714
+          "containment_similarity": 0.714,
+          "shared_token_count": 5
         },
         {
           "agent_id_a": "a1",
@@ -140,7 +146,8 @@
           "record_index_a": 10,
           "record_index_b": 17,
           "jaccard_similarity": 0.5,
-          "containment_similarity": 0.667
+          "containment_similarity": 0.667,
+          "shared_token_count": 6
         },
         {
           "agent_id_a": "a7",
@@ -148,7 +155,8 @@
           "record_index_a": 16,
           "record_index_b": 18,
           "jaccard_similarity": 0.462,
-          "containment_similarity": 0.75
+          "containment_similarity": 0.75,
+          "shared_token_count": 6
         },
         {
           "agent_id_a": "a1",
@@ -156,7 +164,8 @@
           "record_index_a": 10,
           "record_index_b": 19,
           "jaccard_similarity": 0.455,
-          "containment_similarity": 0.714
+          "containment_similarity": 0.714,
+          "shared_token_count": 5
         },
         {
           "agent_id_a": "a8",
@@ -164,7 +173,8 @@
           "record_index_a": 17,
           "record_index_b": 19,
           "jaccard_similarity": 0.455,
-          "containment_similarity": 0.714
+          "containment_similarity": 0.714,
+          "shared_token_count": 5
         }
       ]
     }

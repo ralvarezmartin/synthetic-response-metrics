@@ -310,6 +310,7 @@ def compute_dispersion(
         ):
             jaccard = jaccard_similarity(set_a, set_b)
             containment = containment_similarity(set_a, set_b)
+            shared_token_count = len(set_a & set_b)
             pair_scores.append(jaccard)
             containment_scores.append(containment)
             if tokens_a == tokens_b:
@@ -322,6 +323,7 @@ def compute_dispersion(
                     "record_index_b": item_b.record_index,
                     "jaccard_similarity": round(jaccard, 3),
                     "containment_similarity": round(containment, 3),
+                    "shared_token_count": shared_token_count,
                 }
             )
 

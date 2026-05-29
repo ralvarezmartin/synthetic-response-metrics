@@ -122,6 +122,7 @@ def test_include_pairs_adds_top_similar_pairs():
     assert q1["exact_duplicate_count"] == 1
     assert q1["exact_duplicate_ratio"] == 0.333
     assert q1["top_similar_pairs"][0]["jaccard_similarity"] == 1.0
+    assert q1["top_similar_pairs"][0]["shared_token_count"] == 2
     assert {q1["top_similar_pairs"][0]["agent_id_a"], q1["top_similar_pairs"][0]["agent_id_b"]} == {
         "a1",
         "a2",

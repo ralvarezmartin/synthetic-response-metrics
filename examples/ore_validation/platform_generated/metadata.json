@@ -3,7 +3,7 @@
   "run_id": "ore-platform-20260528T095605Z-cd16d40a",
   "population_id": "ore_platform_fictional_city_services_n10",
   "generated_at_utc": "2026-05-28T09:57:13.545041+00:00",
-  "source_platform": "MadSynthesis local service layer",
+  "source_platform": "MadSynthesis service layer",
   "framework_version": "synthetic-response-metrics 0.2.0",
   "model": "gpt-4o-mini",
   "temperature": 1.0,
@@ -18,8 +18,7 @@
     "personal_data": false,
     "commercially_sensitive_prompts": false,
     "api_keys_or_system_prompts": false,
-    "copyrighted_third_party_text": false,
-    "madison_approval_required_before_deposit": true
+    "copyrighted_third_party_text": false
   },
   "outputs": {
     "framework_input_csv": "madsynthesis_export.csv",

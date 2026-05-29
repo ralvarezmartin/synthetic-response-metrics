@@ -64,7 +64,8 @@
           "record_index_a": 1,
           "record_index_b": 4,
           "jaccard_similarity": 0.5,
-          "containment_similarity": 0.667
+          "containment_similarity": 0.667,
+          "shared_token_count": 6
         },
         {
           "agent_id_a": "a1",
@@ -72,7 +73,8 @@
           "record_index_a": 0,
           "record_index_b": 1,
           "jaccard_similarity": 0.417,
-          "containment_similarity": 0.625
+          "containment_similarity": 0.625,
+          "shared_token_count": 5
         },
         {
           "agent_id_a": "a1",
@@ -80,7 +82,8 @@
           "record_index_a": 0,
           "record_index_b": 4,
           "jaccard_similarity": 0.417,
-          "containment_similarity": 0.625
+          "containment_similarity": 0.625,
+          "shared_token_count": 5
         },
         {
           "agent_id_a": "a1",
@@ -88,7 +91,8 @@
           "record_index_a": 0,
           "record_index_b": 2,
           "jaccard_similarity": 0.308,
-          "containment_similarity": 0.5
+          "containment_similarity": 0.5,
+          "shared_token_count": 4
         },
         {
           "agent_id_a": "a1",
@@ -96,7 +100,8 @@
           "record_index_a": 0,
           "record_index_b": 3,
           "jaccard_similarity": 0.214,
-          "containment_similarity": 0.375
+          "containment_similarity": 0.375,
+          "shared_token_count": 3
         }
       ]
     },
@@ -132,7 +137,8 @@
           "record_index_a": 6,
           "record_index_b": 8,
           "jaccard_similarity": 0.417,
-          "containment_similarity": 0.625
+          "containment_similarity": 0.625,
+          "shared_token_count": 5
         },
         {
           "agent_id_a": "a1",
@@ -140,7 +146,8 @@
           "record_index_a": 5,
           "record_index_b": 7,
           "jaccard_similarity": 0.385,
-          "containment_similarity": 0.556
+          "containment_similarity": 0.556,
+          "shared_token_count": 5
         },
         {
           "agent_id_a": "a1",
@@ -148,7 +155,8 @@
           "record_index_a": 5,
           "record_index_b": 9,
           "jaccard_similarity": 0.333,
-          "containment_similarity": 0.571
+          "containment_similarity": 0.571,
+          "shared_token_count": 4
         },
         {
           "agent_id_a": "a1",
@@ -156,7 +164,8 @@
           "record_index_a": 5,
           "record_index_b": 6,
           "jaccard_similarity": 0.308,
-          "containment_similarity": 0.5
+          "containment_similarity": 0.5,
+          "shared_token_count": 4
         },
         {
           "agent_id_a": "a2",
@@ -164,7 +173,8 @@
           "record_index_a": 6,
           "record_index_b": 7,
           "jaccard_similarity": 0.308,
-          "containment_similarity": 0.5
+          "containment_similarity": 0.5,
+          "shared_token_count": 4
         }
       ]
     }

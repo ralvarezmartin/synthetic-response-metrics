@@ -1,7 +1,7 @@
 {
   "run_id": "ore-platform-20260528T095605Z-cd16d40a",
   "generated_at_utc": "2026-05-28T09:57:13.505066+00:00",
-  "source": "MadSynthesis local service layer",
+  "source": "MadSynthesis service layer",
   "publication_safety_note": "Fictional scenario, synthetic agents, no human respondents, no client data, no API keys, no system prompts, and no confidential platform internals.",
   "study": {
     "mode": "survey",

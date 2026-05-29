@@ -1,5 +1,5 @@
 include README.md
 include LICENSE
 include CITATION.cff
-recursive-include examples/ore_validation *.csv *.json *.md
+recursive-include examples/ore_validation *.csv *.json *.jsonl *.md
 recursive-include tests *.py

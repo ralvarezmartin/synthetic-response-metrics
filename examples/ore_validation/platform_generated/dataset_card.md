@@ -7,9 +7,8 @@ convergence Method Article.
 
 ## Dataset status
 
-Generated specifically for the manuscript when
-`OpenResearchEurope/Articulo/scripts/generate_platform_generated_example.py` is
-executed successfully.
+Generated specifically for the manuscript and included in this repository as a
+static applied example with normalized inputs and expected metric outputs.
 
 ## Intended use
 
@@ -24,9 +23,9 @@ threshold calibration, domain-level generalization, or platform-level quality.
 
 ## Data source
 
-The data are generated through the local MadSynthesis service layer using a
-fictional city-service booking scenario, ten synthetic agents, and three
-open-ended survey questions.
+The data were generated through the MadSynthesis service layer using a fictional
+city-service booking scenario, ten synthetic agents, and three open-ended survey
+questions.
 
 ## Privacy and sensitivity
 
@@ -45,8 +44,3 @@ and confidential platform internals are not included.
 - `madsynthesis_top_pairs.csv`
 - `metadata.json`
 
-## Publication note
-
-Before Zenodo deposit, confirm Madison approval for publishing this synthetic
-platform-generated example and review the generated responses manually for
-unexpected sensitive content.

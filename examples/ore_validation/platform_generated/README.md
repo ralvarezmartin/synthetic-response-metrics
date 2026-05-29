@@ -1,7 +1,7 @@
 # Platform-generated applied example
 
-This folder is reserved for an article-specific applied example generated with
-the local MadSynthesis service layer and analysed with `synthetic-response-metrics`.
+This folder contains an article-specific applied example generated with the
+MadSynthesis service layer and analysed with `synthetic-response-metrics`.
 The example is optional supporting material for the Open Research Europe Method
 Article. It complements the controlled validation examples; it is not the
 primary validation of the method.
@@ -22,9 +22,9 @@ The run uses a fictional, non-client scenario: a generic city-service booking
 app for local public events, appointments, and reminders. The setup uses ten
 synthetic agents and three open-ended survey questions.
 
-## Expected files after generation
+## Included files
 
-- `madsynthesis_raw_export.json`: safe raw export from the local platform service
+- `madsynthesis_raw_export.json`: raw export from the platform service
   layer, excluding API keys, system prompts, and confidential internals.
 - `madsynthesis_export.csv`: normalized framework input.
 - `madsynthesis_export.jsonl`: JSONL copy of the normalized framework input.
@@ -34,32 +34,24 @@ synthetic agents and three open-ended survey questions.
 - `madsynthesis_top_pairs.csv`: top similar response pairs, when available.
 - `metadata.json`: run and publication-safety metadata.
 
-## Safety checklist
-
-- No human participant data.
-- No client data.
-- No personal data.
-- No proprietary client scenario.
-- No confidential prompts.
-- No API keys or system prompts.
-- No internal production identifiers.
-- No copyrighted third-party text.
-- Only synthetic responses generated for this manuscript.
-- Madison approval required before public deposit.
 
 ## Reproduce
 
-From the workspace root:
+From the repository root, install the package and recompute the metrics from
+the included normalized CSV:
 
 ```powershell
-python OpenResearchEurope\Articulo\scripts\generate_platform_generated_example.py
+pip install -e .
+srm compute examples/ore_validation/platform_generated/madsynthesis_export.csv --include-pairs --language en --output examples/ore_validation/platform_generated/madsynthesis_metrics.json
 ```
 
-If the normalized CSV already exists, recompute the metrics with:
+For local development without installation:
 
 ```powershell
-python -m synthetic_response_metrics.cli compute examples\ore_validation\platform_generated\madsynthesis_export.csv --include-pairs --language en --output examples\ore_validation\platform_generated\madsynthesis_metrics.json
+$env:PYTHONPATH = "src"
+python -m synthetic_response_metrics.cli compute examples/ore_validation/platform_generated/madsynthesis_export.csv --include-pairs --language en --output examples/ore_validation/platform_generated/madsynthesis_metrics.json
 ```
 
-When running the second command directly from this package without installing it,
-set `PYTHONPATH=src` first or install the package in editable mode.
+The repository includes the normalized input and expected metric outputs. To
+analyse a new platform export, adapt it to the generic `question_id`,
+`agent_id`, and `text` schema before running `srm compute`.

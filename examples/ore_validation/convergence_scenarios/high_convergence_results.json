@@ -64,7 +64,8 @@
           "record_index_a": 0,
           "record_index_b": 1,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 11
         },
         {
           "agent_id_a": "a1",
@@ -72,7 +73,8 @@
           "record_index_a": 0,
           "record_index_b": 2,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 11
         },
         {
           "agent_id_a": "a1",
@@ -80,7 +82,8 @@
           "record_index_a": 0,
           "record_index_b": 3,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 11
         },
         {
           "agent_id_a": "a1",
@@ -88,7 +91,8 @@
           "record_index_a": 0,
           "record_index_b": 4,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 11
         },
         {
           "agent_id_a": "a1",
@@ -96,7 +100,8 @@
           "record_index_a": 0,
           "record_index_b": 5,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 11
         }
       ]
     },
@@ -132,7 +137,8 @@
           "record_index_a": 6,
           "record_index_b": 7,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 13
         },
         {
           "agent_id_a": "a1",
@@ -140,7 +146,8 @@
           "record_index_a": 6,
           "record_index_b": 8,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 13
         },
         {
           "agent_id_a": "a1",
@@ -148,7 +155,8 @@
           "record_index_a": 6,
           "record_index_b": 9,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 13
         },
         {
           "agent_id_a": "a1",
@@ -156,7 +164,8 @@
           "record_index_a": 6,
           "record_index_b": 10,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 13
         },
         {
           "agent_id_a": "a1",
@@ -164,7 +173,8 @@
           "record_index_a": 6,
           "record_index_b": 11,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 13
         }
       ]
     },
@@ -200,7 +210,8 @@
           "record_index_a": 12,
           "record_index_b": 13,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 11
         },
         {
           "agent_id_a": "a1",
@@ -208,7 +219,8 @@
           "record_index_a": 12,
           "record_index_b": 14,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 11
         },
         {
           "agent_id_a": "a1",
@@ -216,7 +228,8 @@
           "record_index_a": 12,
           "record_index_b": 15,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 11
         },
         {
           "agent_id_a": "a1",
@@ -224,7 +237,8 @@
           "record_index_a": 12,
           "record_index_b": 16,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 11
         },
         {
           "agent_id_a": "a1",
@@ -232,7 +246,8 @@
           "record_index_a": 12,
           "record_index_b": 17,
           "jaccard_similarity": 1.0,
-          "containment_similarity": 1.0
+          "containment_similarity": 1.0,
+          "shared_token_count": 11
         }
       ]
     }

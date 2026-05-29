@@ -11,6 +11,9 @@ authors:
     given-names: "Rodrigo"
   - family-names: "Soroberto"
     given-names: "Mina"
+  - family-names: "Cartón"
+    given-names: "Mario"
+    orcid: "https://orcid.org/0009-0001-7244-7106"
 abstract: "A lightweight, platform-independent Python package and CLI for reproducible lexical monitoring of response convergence in LLM-based synthetic populations."
 keywords:
   - synthetic populations

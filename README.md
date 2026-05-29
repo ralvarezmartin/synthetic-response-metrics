@@ -1,6 +1,6 @@
 # Synthetic Response Metrics
 
-[![DOI](https://zenodo.org/badge/1252134237.svg)](https://doi.org/10.5281/zenodo.20440939)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20440940.svg)](https://doi.org/10.5281/zenodo.20440940)
 
 Lightweight response-convergence metrics for LLM-based synthetic populations.
 
